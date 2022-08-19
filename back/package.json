@@ -1,0 +1,34 @@
+{
+  "name": "chalenge-fullstack-alkemy",
+  "version": "1.0.0",
+  "description": "Personal Budget App",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jesscarden7/challenge-fullstack-alkemy.git"
+  },
+  "keywords": [
+    "Personal",
+    "Budget"
+  ],
+  "author": "Jessica Cardeño",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jesscarden7/challenge-fullstack-alkemy/issues"
+  },
+  "homepage": "https://github.com/Jesscarden7/challenge-fullstack-alkemy#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
