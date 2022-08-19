@@ -3,30 +3,30 @@ import Nav from "react-bootstrap/Nav";
 
 function Navbar() {
   return (
-    <Nav>
+    <Nav className="navbar">
       <Nav.Item>
         <Nav.Link>
-          <Link to="/home">Home</Link>
+          <Link className="link" to="/home">Home</Link>
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
         <Nav.Link>
-          <Link to="/transactionList">Lista de Transacciones</Link>
+          <Link className="link" to="/transactionList">Lista de Transacciones</Link>
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
         <Nav.Link>
-          <Link to="/transactionRegister">Registro de Transacciones</Link>
+          <Link className="link" to="/transactionRegister">Registro de Transacciones</Link>
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
         <Nav.Link>
-          <Link to="/usersRegister">Registro de Usuarios</Link>
+          <Link className="link" to="/usersRegister">Registro de Usuarios</Link>
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
         <Nav.Link>
-          <Link to="/userLogin">Login</Link>
+          <Link className="link" to="/userLogin">Login</Link>
         </Nav.Link>
       </Nav.Item>
     </Nav>
