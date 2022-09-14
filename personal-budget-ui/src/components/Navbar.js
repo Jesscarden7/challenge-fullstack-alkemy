@@ -6,7 +6,7 @@ function Navbar() {
     <Nav className="navbar">
       <Nav.Item>
         <Nav.Link>
-          <Link className="link" to="/home">Home</Link>
+          <Link className="link" to="/">Home</Link>
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>

@@ -36,11 +36,6 @@ module.exports = (sequelize, DataTypes) => {
             foreingKey: "id_user"
         });
 
-        Transaction.belongsTo(models.TransactionTypes, {
-            as: "transaction_type",
-            foreingKey: "id_transactionType"
-        });
-
         Transaction.belongsTo(models.Categories, {
             as: "category",
             foreingKey: "id_category"

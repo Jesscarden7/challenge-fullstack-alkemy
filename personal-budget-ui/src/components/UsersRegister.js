@@ -13,27 +13,29 @@ function UsersRegister() {
             <Form.Control
               type="text"
               placeholder="Ingresa tu nombre y apellido"
+              autoComplete="off"
             />
           </Form.Group>
         </Col>
         <Col xs={4}>
-          <Form.Group className="mb-3" controlId="formBasicEmail">
+          <Form.Group className="mb-3" controlId="formBasicEmailRegister">
             <Form.Label>Correo</Form.Label>
-            <Form.Control type="email" placeholder="Ingresa un correo válido" />
+            <Form.Control type="email" placeholder="Ingresa un correo válido" autoComplete="off" />
           </Form.Group>
         </Col>
         <Col xs={4}>
-          <Form.Group className="mb-3" controlId="formBasicPassword">
+          <Form.Group className="mb-3" controlId="formBasicPasswordRegister">
             <Form.Label>Contraseña</Form.Label>
-            <Form.Control type="password" placeholder="Ingresa tu contraseña" />
+            <Form.Control type="password" placeholder="Ingresa tu contraseña"  autoComplete="off"/>
           </Form.Group>
         </Col>
         <Col xs={4}>
-          <Form.Group className="mb-3" controlId="formBasicPassword">
+          <Form.Group className="mb-3" controlId="formBasicPasswordRegisterConfirm">
             <Form.Label>Comprobar Contraseña</Form.Label>
             <Form.Control
               type="password"
               placeholder="Ingresa nuevamente tu contraseña"
+              autoComplete="off"
             />
           </Form.Group>
         </Col>

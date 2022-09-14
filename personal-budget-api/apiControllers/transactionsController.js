@@ -6,9 +6,12 @@ const transactionsController = {
         try {
             transactions = await db.Transactions.findAll({
                 include: [
-                    { association: "category" },
+                    { association: "category",
+                        include: [
+                            {association: "transaction_type"}
+                        ]
+                     },
                     { association: "user" },
-                    { association: "transaction_type" }
                 ]
             });
         } catch (error) {

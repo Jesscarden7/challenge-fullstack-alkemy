@@ -38,7 +38,13 @@ const userController = {
         if(!isMatch){
             return res.status(401).json("Invalid credentials")
         }
-        res.status(200).json("Success");
+
+        const response  = {
+            email: existingUser.email,
+            id: existingUser.id,
+            name: existingUser.name
+        } ; 
+        res.status(200).json(response);
     }
 }
 
